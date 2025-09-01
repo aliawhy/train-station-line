@@ -1,5 +1,11 @@
 [
   {
+    "name": "===============广惠城际================",
+    "interchangeOptions": [],
+    "description": "",
+    "type": ""
+  },
+  {
     "name": "番禺",
     "interchangeOptions": [
       {
@@ -192,6 +198,12 @@
     "type": "快车站"
   },
   {
+    "name": "===============广肇城际================",
+    "interchangeOptions": [],
+    "description": "",
+    "type": ""
+  },
+  {
     "name": "陈村",
     "interchangeOptions": [],
     "description": "",
@@ -280,5 +292,173 @@
     "interchangeOptions": [],
     "description": "",
     "type": "快车站"
+  },
+  {
+    "name": "===============广清城际================",
+    "interchangeOptions": [],
+    "description": "",
+    "type": ""
+  },
+  {
+    "name": "飞霞",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "洲心",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "燕湖",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "清城",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "龙塘镇",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "银盏",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "狮岭",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "乐同",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "花都",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "===============广州东环城际================",
+    "interchangeOptions": [],
+    "description": "",
+    "type": ""
+  },
+  {
+    "name": "花城街",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "花山镇",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "白云机场北",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "白云机场南",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "白云机场东",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "竹料",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "帽峰山",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "大源",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "龙洞",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "岑村",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "科韵路",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "琶洲",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "快车站"
+  },
+  {
+    "name": "广州大学城",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "大石东",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "===============琶莲城际================",
+    "interchangeOptions": [],
+    "description": "",
+    "type": ""
+  },
+  {
+    "name": "深井",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "化龙南",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
   }
 ]
