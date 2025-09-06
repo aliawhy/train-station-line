@@ -9,61 +9,38 @@
     "name": "番禺",
     "interchangeOptions": [
       {
-        "showName": "广惠",
-        "fullName": "广惠城际",
-        "color": "#2558a4"
+        "type": "train",
+        "stationName": "广州南站",
+        "description": "需出站前往（地下→地面），可换乘至火车广州南站。步行至三楼进站安检处约15分钟。发车前5分钟停止检票，建议预留30分钟换乘。"
       },
       {
-        "showName": "广肇",
-        "fullName": "广肇城际",
-        "color": "#2558a4"
-      },
-      {
-        "showName": "广州2",
-        "fullName": "广州2",
-        "color": "#015ea0"
-      },
-      {
-        "showName": "广州7",
-        "fullName": "广州7",
-        "color": "#90d400"
-      },
-      {
-        "showName": "广州22",
-        "fullName": "广州22",
-        "color": "#cd5227"
-      },
-      {
-        "showName": "佛山2",
-        "fullName": "佛山2",
-        "color": "#ff010b"
-      },
-      {
-        "showName": "广州南站",
-        "fullName": "广州南站",
-        "color": "#cc2e7d"
+        "type": "subway",
+        "stationName": "广州南站",
+        "description": "需出站前往（地下），可换乘至广州地铁2、7、22号线或佛山地铁2号线。最近为广州22号线，步行约5分钟；最远为佛山2号线，步行约25分钟，需重新安检。"
       }
     ],
-    "description": "番禺站有4个站台\n站内换乘广惠城际、广肇城际，请留意车次站台\n\n出站换乘广州南高铁站，步行约450米（16分钟）\n出站换乘广州南地铁站：\n广州地铁：2、7、22号线，步行约300-500米（16分钟）\n佛山地铁：2号线，步行约1公里（30分钟）\n",
-    "type": "快车站"
+    "description": "",
+    "type": "快车站",
+    "sic": "无法"
   },
   {
     "name": "广州长隆",
     "interchangeOptions": [
       {
-        "showName": "广州7",
-        "fullName": "广州7",
-        "color": "#90d400"
+        "type": "subway",
+        "stationName": "汉溪长隆",
+        "description": "需出站前往（地下→地面→地下），可换乘至广州地铁3、7号线。暂无地下换乘通道，步行约600米，12分钟，需重新安检。"
       }
     ],
-    "description": "广州长隆为分离式站台\n两个反向不是同台换乘",
+    "description": "",
     "type": "快车站"
   },
   {
     "name": "东环",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "官桥北",
@@ -75,7 +52,8 @@
     "name": "广州莲花山",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "sic": "无法"
   },
   {
     "name": "麻涌",
@@ -85,7 +63,13 @@
   },
   {
     "name": "东莞西",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "东莞西（暂未开通）",
+        "description": "需出站前往（地面），可换乘至东莞地铁1号线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "快车站"
   },
@@ -97,15 +81,29 @@
   },
   {
     "name": "西平西",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "西平",
+        "description": "需出站前往（地下），可换乘东莞地铁2号线。步行约3分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "东城南",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "东城南（暂未开通）",
+        "description": "需出站前往（地下），可换乘东莞地铁1号线。步行约3分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "寮步",
@@ -117,23 +115,32 @@
     "name": "松山湖北",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "大朗镇",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "常平南",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "常平东",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "东莞东站",
+        "description": "需出站前往（地面），步行到马路对面东莞东站，约12分钟。发车前5分钟停止检票，建议预留28分钟换乘。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
@@ -171,29 +178,39 @@
     "name": "龙丰",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "西湖东",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "云山",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "小金口",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "sic": "无法"
   },
   {
     "name": "惠州北",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "惠州北站",
+        "description": "便捷换乘，无需出站（免安检）可换乘至惠州北站。发车前5分钟停止检票，建议预留20分钟换乘。"
+      }
+    ],
     "description": "",
     "type": "快车站"
   },
@@ -205,33 +222,69 @@
   },
   {
     "name": "陈村",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "陈村",
+        "description": "需出站前往（地下→地面→地下），可换乘广州地铁7号线。步行约6分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
   {
     "name": "北滘西",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "北滘西",
+        "description": "需出站前往（地面→地下），可换乘佛山地铁3号线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
   {
     "name": "顺德北",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "东平",
+        "description": "需出站前往（地下），可换乘地铁广佛线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
   {
     "name": "张槎",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "张槎",
+        "description": "需出站前往（地面→地下），可换佛山地铁4号线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
   {
     "name": "佛山西",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "佛山西站",
+        "description": "便捷换乘，无需出站（免安检）可换乘至火车佛山西站。发车前5分钟停止检票，建议预留20分钟换乘。"
+      },
+      {
+        "type": "subway",
+        "stationName": "佛山西站",
+        "description": "需出站前往（枢纽换乘），可换乘至佛山地铁3号线。步行约3分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "sic": "无法"
   },
   {
     "name": "狮山",
@@ -271,7 +324,13 @@
   },
   {
     "name": "鼎湖东",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "肇庆东站",
+        "description": "需出站前往（地面），可换乘至火车肇庆东站。发车前5分钟停止检票，建议预留20分钟换乘。"
+      }
+    ],
     "description": "",
     "type": "快车站"
   },
@@ -289,7 +348,13 @@
   },
   {
     "name": "肇庆",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "肇庆站",
+        "description": "便捷换乘，无需出站（免安检）可换乘至肇庆站。发车前5分钟停止检票，建议预留20分钟换乘。"
+      }
+    ],
     "description": "",
     "type": "快车站"
   },
@@ -307,7 +372,13 @@
   },
   {
     "name": "洲心",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "清远站",
+        "description": "需出站前往（地面），可换乘至火车清远站。步行约3分钟，发车前5分钟停止检票，建议预留20分钟换乘。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
@@ -331,7 +402,13 @@
   },
   {
     "name": "银盏",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "磁浮银盏（清远长隆站）",
+        "description": "需出站前往（枢纽换乘），可换乘至清远磁浮线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "慢车站"
   },
@@ -349,9 +426,21 @@
   },
   {
     "name": "花都",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "广州北站",
+        "description": "便捷换乘，无需出站（免安检）可换乘至火车广州北站。发车前5分钟停止检票，建议预留20分钟换乘。"
+      },
+      {
+        "type": "subway",
+        "stationName": "广州北站",
+        "description": "需出站前往（枢纽换乘），可换乘至广州地铁9号线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "sic": "无法"
   },
   {
     "name": "===============广州东环城际================",
@@ -373,25 +462,45 @@
   },
   {
     "name": "白云机场北",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "airport",
+        "stationName": "广州白云国际机场",
+        "description": "需出站前往（枢纽换乘），可换乘至广州白云国际机场。请预留足够的时间。"
+      },
+      {
+        "type": "subway",
+        "stationName": "机场北",
+        "description": "需出站前往（枢纽换乘），可换乘至广州地铁3号线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "快车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "白云机场南",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "白云机场东",
     "interchangeOptions": [],
     "description": "",
-    "type": "快车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "竹料",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "竹料",
+        "description": "需出站前往（地面），可换乘至广州地铁14号线。步行约3分钟，需重新安检。"
+      }
+    ],
     "description": "",
     "type": "快车站"
   },
@@ -405,29 +514,51 @@
     "name": "大源",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "龙洞",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "龙洞",
+        "description": "需出站前往（地下→地面→地下），可换乘至广州地铁6号线。步行约6分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "岑村",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "科韵路",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "科韵路",
+        "description": "需出站前往（地下→地面→地下），可换乘至广州地铁5号线。步行约6分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "慢车站"
+    "type": "快车站",
+    "pt": "同岛"
   },
   {
     "name": "琶洲",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "琶洲",
+        "description": "可换乘至广州地铁8、11号线。换乘8号线需出站前往（地下→地面→地下），步行约7分钟，需重新安检。换乘11号线，步行约3分钟，有免安检通道。"
+      }
+    ],
     "description": "",
     "type": "快车站"
   },
@@ -435,13 +566,21 @@
     "name": "广州大学城",
     "interchangeOptions": [],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "大石东",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "大石",
+        "description": "需出站前往（地下→地面→地下），可换乘至广州地铁3号线。步行约5分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "===============琶莲城际================",
@@ -451,14 +590,193 @@
   },
   {
     "name": "深井",
-    "interchangeOptions": [],
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "深井",
+        "description": "需出站前往（地下），可换乘至广州地铁7号线。步行约3分钟，需重新安检。"
+      }
+    ],
     "description": "",
-    "type": "慢车站"
+    "type": "慢车站",
+    "pt": "同岛"
   },
   {
     "name": "化龙南",
     "interchangeOptions": [],
     "description": "",
+    "type": "慢车站",
+    "pt": "同岛"
+  },
+  {
+    "name": "===============穗深城际================",
+    "interchangeOptions": [],
+    "description": "",
+    "type": ""
+  },
+  {
+    "name": "钟落潭东",
+    "interchangeOptions": [],
+    "description": "",
     "type": "慢车站"
+  },
+  {
+    "name": "九佛",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "佛塱",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "新龙",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "镇龙",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "永宁北",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "永宁南",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "新塘南",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "中堂",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "望牛墩",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "洪梅",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "东莞港",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "厚街",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站",
+    "pt": "同岛"
+  },
+  {
+    "name": "虎门北",
+    "interchangeOptions": [
+      {
+        "type": "train",
+        "stationName": "虎门站",
+        "description": "需出站前往（枢纽换乘），可换乘至火车虎门站。步行约10分，发车前5分钟停止检票，建议预留25分钟换乘。"
+      },
+      {
+        "type": "subway",
+        "stationName": "虎门火车站",
+        "description": "需出站前往（枢纽换乘），可换乘至东莞地铁2号线。步行约10分钟，需重新安检。"
+      }
+    ],
+    "description": "",
+    "type": "慢车站",
+    "pt": "同岛"
+  },
+  {
+    "name": "虎门东",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站",
+    "pt": "同岛"
+  },
+  {
+    "name": "长安西",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "长安",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "沙井西",
+    "interchangeOptions": [],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "福海西",
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "福海西",
+        "description": "需出站前往（地面→地下），可换乘至深圳地铁12号线。步行约5分钟，需重新安检。"
+      }
+    ],
+    "description": "",
+    "type": "慢车站"
+  },
+  {
+    "name": "深圳机场北",
+    "interchangeOptions": [
+      {
+        "type": "subway",
+        "stationName": "福海西",
+        "description": "需出站前往（地下），可换乘至深圳地铁11、20号线。步行约3分钟，需重新安检。"
+      }
+    ],
+    "description": "",
+    "type": "慢车站",
+    "pt": "同岛"
+  },
+  {
+    "name": "深圳机场",
+    "interchangeOptions": [
+      {
+        "type": "airport",
+        "stationName": "深圳宝安国际机场",
+        "description": "需出站前往（枢纽换乘），可换乘至深圳宝安国际机场。请预留足够的时间。"
+      },
+      {
+        "type": "subway",
+        "stationName": "机场",
+        "description": "需出站前往（枢纽换乘），可换乘至深圳地铁11号线。步行约10分钟，需重新安检。"
+      }
+    ],
+    "description": "",
+    "type": "慢车站",
+    "pt": "同岛"
   }
 ]
